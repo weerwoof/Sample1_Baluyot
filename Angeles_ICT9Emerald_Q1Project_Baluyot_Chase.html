@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q1 Project</title>
+
+  <style>
+    .Introduction, .MyProjects {
+      border: 5px outset blue;
+      background-color: lightblue;
+      text-align: center;
+      width: 750px;
+      max-width: 95%;
+      margin: 20px auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+
+
+    .project {
+      display: flex;
+      align-items: center;
+    }
+
+    .projectL {
+      flex: 1;
+    }
+
+
+
+    .projectL img {
+      max-width: 100%;
+    }
+
+    .projectR {
+      flex: 1;
+    }
+
+    body {
+      text-align: center;
+      background-image: url("Backround4Project.avif");
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1> Chase Baluyot's Portfoilio!</h1>
+<p>Welcome to my portfoilio!</p>
+
+<img src="Profile.png">
+
+<div class="Introduction">
+  <h2>My name is Chase Baluyot, I was born on January 19, 2012.</h2>
+  <p>im passionate about Fencing and Chess-Boxing.</p>
+</div>
+
+<div class="MyProjects">
+  <h2>My ICT projects!</h2>
+
+  <div class="project">
+    <div class="projectL">
+      <a href="https://drive.google.com/drive/folders/1gDhMvOHdkGXvMSal6iyYESQXtIGIQHob"> My top spotify Tracks! </a>
+      <img src="MySpotify.png">
+    </div>
+
+    <div class="projectR">
+      <ol>
+        <li>Image implementation</li>
+        <li>Text implementation</li>
+      </ol>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+
+  <div class="project">
+    <div class="projectL">
+      <a href="https://drive.google.com/drive/folders/1gDhMvOHdkGXvMSal6iyYESQXtIGIQHob"> Rate a movie! </a>
+      <br>
+      <img src="MyMovie.png">
+    </div>
+
+
+
+    <div class="projectR">
+      <ol>
+        <li>HTML forms</li>
+        <li>Website Design </li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<h2>Where did you hear of me?</h2>
+<label for="Wdyhom"> Where did you hear of me? </label>
+<select id="Wdyhom" name="Wdyhom">
+  <option value="Grading Your Project "> Grading Your Project</option>
+  <option value="Example for best work"> Example for best work</option>
+  <option value="Instagram"> Instagram</option>
+  <option value="Youtube"> Youtube</option>
+</select>
+
+
+
+
+
+<h2>Contact me!</h2>
+<label for="Feedback">:</label>
+<textarea id="Feedback" name="Feedback" rows="20" cols="50" placeholder="TypeHere!"></textarea>
+<input type="submit" value="submit">
+
+</body>
+</html>
